@@ -18,3 +18,5 @@
 
 **
 
+其中 Myserver.java是聊天服务器  chatting-php.gz是内/外网服务器的php接口文件
+
