@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/headTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/myBlue">
+
+        <TextView
+            android:id="@+id/friends_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="更改备注"
+            android:textColor="@color/myWhite"
+            android:textSize="19dp" />
+
+        <ImageView
+            android:id="@+id/back_to_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/addfriends" />
+        <TextView
+            android:id="@+id/back_to_chatting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/myWhite"
+            android:textSize="19dp"
+            android:layout_toEndOf="@+id/back_to_chat"
+            android:text="返回" />
+    </RelativeLayout>
+<TextView
+    android:layout_width="100dp"
+    android:layout_height="40dp"
+    android:text="备注"
+    android:textSize="22dp"
+    android:layout_alignBaseline="@+id/beizhu_data"
+    android:layout_alignBottom="@+id/beizhu_data"
+    android:layout_alignParentStart="true"
+    android:layout_marginStart="22dp" />
+    <EditText
+        android:id="@+id/beizhu_data"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint=""
+        android:textColor="@color/myBlack"
+        android:textColorHint="@color/myGray"
+        android:layout_marginTop="93dp"
+        android:layout_below="@+id/headTitle"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/change"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/register_03"
+        android:text="更改"
+        android:textColor="#6495ED"
+        android:textSize="17dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/myWhite">
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="55dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:text="返回"
+            android:textSize="14dp"
+            android:textColor="@color/myBlue"
+            android:background="@drawable/my_backbutton_selecter"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="修改个人资料"
+            android:textColor="@color/myBlue"
+            android:textSize="18dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lighterGray"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="昵称："
+                android:textColor="@color/myBlack" />
+
+            <EditText
+                android:id="@+id/netname_change"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="请输入昵称"
+                android:textColor="@color/myBlack"
+                android:textColorHint="@color/myGray" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="个签："
+                android:textColor="@color/myBlack" />
+
+            <EditText
+                android:id="@+id/sign_change"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="请输入个签"
+                android:textColor="@color/myBlack"
+                android:textColorHint="@color/myGray" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="性别："
+                android:textColor="@color/myBlack" />
+            <EditText
+                android:id="@+id/sex_change"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="请输入性别"
+                android:textColor="@color/myBlack"
+                android:textColorHint="@color/myGray" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="生日："
+                android:textColor="@color/myBlack" />
+            <EditText
+                android:id="@+id/birthday_change"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="请输入生日"
+                android:textColor="@color/myBlack"
+                android:textColorHint="@color/myGray" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="故乡："
+                android:textColor="@color/myBlack" />
+
+            <EditText
+                android:id="@+id/home_change"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="请输入故乡"
+                android:textColor="@color/myBlack"
+                android:textColorHint="@color/myGray" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="学校："
+                android:textColor="@color/myBlack" />
+
+            <EditText
+                android:id="@+id/school_change"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="请输入学校"
+                android:textColor="@color/myBlack"
+                android:textColorHint="@color/myGray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="班级："
+                android:textColor="@color/myBlack" />
+
+            <EditText
+                android:id="@+id/class_change"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="请输入班级"
+                android:textColor="@color/myBlack"
+                android:textColorHint="@color/myGray" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="电话："
+                android:textColor="@color/myBlack" />
+
+            <EditText
+                android:id="@+id/phone_change"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="请输入电话"
+                android:textColor="@color/myBlack"
+                android:textColorHint="@color/myGray" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="邮箱："
+                android:textColor="@color/myBlack" />
+
+            <EditText
+                android:id="@+id/email_change"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="请输入邮箱"
+                android:textColor="@color/myBlack"
+                android:textColorHint="@color/myGray" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"></RelativeLayout>
+
+        <Button
+            android:id="@+id/change_data"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/register_03"
+            android:text="保存"
+            android:textColor="#6495ED"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

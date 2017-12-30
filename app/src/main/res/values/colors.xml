@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5446f0</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="myGray">#BFBFBF</color>
+    <!-- 灰色 -->
+    <color name="myLightGray">#e0e0e0</color>
+    <!-- 灰色 -->
+    <color name="lightGray">#f5f5f5</color>
+    <!-- 浅灰色 -->
+    <color name="lighterGray">#f9f9f9</color>
+    <!-- 特浅灰色 -->
+    <color name="myBlue">#0cadf0</color>
+    <!-- 蓝色 -->
+    <color name="myBlack">#000000</color>
+    <!-- 黑色-->
+    <color name="myWhite">#ffffff</color>
+    <!-- 白色 -->
+    <color name="deepGray">#292421</color>
+    <!-- 象牙灰 -->
+    <color name="deepBlue">#082E54</color>
+    <!-- 深蓝 -->
+    <color name="myOrange">#ff552e</color>
+    <!-- 橙色-->
+    <color name="myGray_title">#3d3836</color>
+    <!-- hui色-->
+    <color name="bg_gray">#e9e4e3</color>
+    <!-- friend_search色-->
+    <color name="add_search_color">#f2f0f0</color>
+    <!-- friend_search色-->
+
+
+    <!-- sousuo_gray色-->
+    <color name="sousuo_gray">#e5f1eeee</color>
+</resources>

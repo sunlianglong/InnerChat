@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sunlianglong.chatnei">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 获取本地ip 权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/chat"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainChatActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PersonalActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChangeDataActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SetHeadImageActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddFriendsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Friends_data_opoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Change_beizhuActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SearchActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HeimingdanActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".More_dataActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".QunchatActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

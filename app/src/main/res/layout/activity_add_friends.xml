@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B0000000"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/headTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/myBlue">
+
+        <TextView
+            android:id="@+id/friends_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="添加"
+            android:textColor="@color/myWhite"
+            android:textSize="18dp" />
+
+
+
+        <ImageView
+            android:id="@+id/addfriends_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/addfriends" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_location"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/bg_gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <AutoCompleteTextView
+            android:id="@+id/friends_info_search"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:drawableLeft="@drawable/search"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="IP/网名"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:singleLine="true"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/add_friends_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="添加" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/popup_window_v_alpha"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="待定功能" />
+
+        <item
+            android:id="@+id/personal_data"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="个人资料" />
+        <item
+            android:id="@+id/set"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="设置" />
+        <item
+            android:id="@+id/xixixi"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="内网福利" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="分享" />
+            <item
+                android:id="@+id/shit"
+                android:icon="@drawable/ic_menu_send"
+                android:title="黑名单" />
+        </menu>
+    </item>
+
+</menu>
